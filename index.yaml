@@ -1,20 +1,14 @@
 apiVersion: v1
 entries:
-  istiod:
-  - apiVersion: v1
-    appVersion: 1.13.2-tetrate-v0
-    created: "2022-06-14T16:46:56.33692-06:00"
-    description: Helm chart for istio control plane
-    digest: 4839b6e122b29cd72485e199061b91ab1bbf586b37e5e6e0d233ab1690a9c7c0
-    icon: https://istio.io/latest/favicons/android-192x192.png
-    keywords:
-    - istio
-    - istiod
-    - istio-discovery
-    name: istiod
-    sources:
-    - http://github.com/istio/istio
+  helm-chart-test:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-06-14T17:43:21.55053-06:00"
+    description: A Helm chart for Kubernetes
+    digest: 30564ab6b4b5f6822ccca215d502949753d3c8301163f0433be0e5cd707dda10
+    name: helm-chart-test
+    type: application
     urls:
-    - https://psbrar99.github.io/helmcharts/charts/istiod-1.13.2-tetrate-v0.tgz
-    version: 1.13.2-tetrate-v0
-generated: "2022-06-14T16:46:56.333563-06:00"
+    - https://prabhjotbrar.github.io/hhcharts/helm-chart-test-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-06-14T17:43:21.548392-06:00"
